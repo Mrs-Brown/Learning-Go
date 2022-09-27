@@ -1,1 +1,2 @@
-//Function that returns Boolean value
+//Function that returns Boolean values
+package main
