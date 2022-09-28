@@ -7,7 +7,7 @@ func main() {
     fmt.Println("There is a cavern entrance here and a path to the east.")
     var command = "go inside"
 
-    switch command {
+    switch command {  //Compare cases to command
     case "go east":
         fmt.Println("You head further up the mountain.")
     case "enter cave", "go inside":   //A comma seperated list of possible values
