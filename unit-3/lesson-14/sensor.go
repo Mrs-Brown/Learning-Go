@@ -23,3 +23,5 @@ func main() {
     sensor = realSensor //Assign function to same variable
     fmt.Println(sensor())
 }
+
+//Sensor variable is of type function
