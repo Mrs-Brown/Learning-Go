@@ -1,0 +1,20 @@
+// Using maps to count things
+package main
+
+import "fmt"
+
+func main() {
+	temperatures := []float64{
+		-28.0, 32.0, -31.0, -29.0, -28.0, -33.0,
+	}
+
+	frequency := make(map[float64]int)
+
+	for _, t := range temperatures { //Iterates over a slice (index, value)
+		frequency[t]++
+	}
+
+	for t, num := range frequency { //Iterates over a mao (key, value)
+		fmt.Printf("%+.2f occurs %d times\n", t, num)
+	}
+}
