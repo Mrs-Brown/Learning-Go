@@ -13,4 +13,11 @@ func main() {
 
 	insight := location{lat: 4.5, long: 135.9}
 	fmt.Println(insight)
+
+	spirit := location{-14.5684, 175.472636} //No need to specify lat and long
+	fmt.Println(spirit)
+
+	curiosity := location{-4.5895, 137.4417}
+	fmt.Printf("%v\n", curiosity)
+	fmt.Printf("%+v\n", curiosity)
 }
