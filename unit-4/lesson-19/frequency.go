@@ -17,4 +17,3 @@ func main() {
 	for t, num := range frequency { //Iterates over a mao (key, value)
 		fmt.Printf("%+.2f occurs %d times\n", t, num)
 	}
-}
