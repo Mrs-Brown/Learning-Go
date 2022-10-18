@@ -8,3 +8,4 @@ func main() {
 
 	fmt.Printf("address is a %T\n", address) //type *int, a pointer
 }
+//test
